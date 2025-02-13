@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 *
 {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Lato', serif;
 }
 body
 {
@@ -14,7 +14,7 @@ body
     min-height: 100vh;
     flex-direction: column;
     gap: 30px;
-    background: #1d2b3a;
+    background: #282828;
 }
 .inputBox
 {
@@ -25,9 +25,9 @@ body
 .inputBox input
 {
     width: 100%;
-    padding: 10px;
-    border: 1px solid rgba(255,255,255,0.25);
-    background: #1d2b3a;
+    padding: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    background: #434446;
     border-radius: 5px;
     outline: none;
     color: #fff;
@@ -48,25 +48,24 @@ body
 .inputBox input:valid ~ span,
 .inputBox input:focus ~ span
 {
-    color: #00dfc4;
+    color: #ffffff;
     transform: translateX(10px), translateY(-7px);
     font-size: 0.65em;
     padding: 0 10px;
-    background: #1d2b3a;
-    border-left: 1px solid #00dfc4;
-    border-right: 1px solid #00dfc4;
+    background: #383838;
+    border-left: 1px solid #8a8888;
+    border-right: 1px solid #8a8888;
     letter-spacing: 0.2em;
 }
 .inputBox:nth-child(2) input:valid ~ span,
 .inputBox:nth-child(2) input:focus ~ span
 {
-background: #00dfc4;
+background: #ffffff;
 color: #1d2b3a;
 border-radius: 2px;
 }
 .inputBox input:valid,
 .inputBox input:focus
 {
-    border: 1px solid #00dfc4;
+    border: 1px solid #ffffff;
 }
-
